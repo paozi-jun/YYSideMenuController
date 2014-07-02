@@ -3,6 +3,8 @@ import UIKit
 
 class RootViewController: UIViewController {
 
+    var menuVC:YYSideMenuController?
+    
     init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         // Custom initialization
@@ -11,9 +13,32 @@ class RootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.grayColor()
-        // Do any additional setup after loading the view.
+        
+        var leftBt = UIButton(frame:CGRectMake(0,100,160,50))
+        leftBt.setTitle("show left", forState: UIControlState.Normal)
+        leftBt.setTitleColor(UIColor.greenColor(), forState: UIControlState.Normal)
+        leftBt.addTarget(self, action: "showLeft", forControlEvents: UIControlEvents.TouchUpInside)
+        self.view.addSubview(leftBt)
+        
+        var rightBt = UIButton(frame:CGRectMake(160,100,160,50))
+        rightBt.setTitle("show right", forState: UIControlState.Normal)
+        rightBt.setTitleColor(UIColor.greenColor(), forState: UIControlState.Normal)
+        rightBt.addTarget(self, action: "showRight", forControlEvents: UIControlEvents.TouchUpInside)
+        self.view.addSubview(rightBt)
     }
 
+    func showRight(){
+        if self.menuVC{
+            self.menuVC!.showRightViewController(true)
+        }
+    }
+    
+    func showLeft(){
+        if self.menuVC{
+            self.menuVC!.showLeftViewController(true)
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

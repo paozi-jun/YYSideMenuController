@@ -6,7 +6,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
                             
     var window: UIWindow?
-
+    var menuVC:YYSideMenuController!
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
@@ -18,8 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var sideVC1 = SideViewController(nibName: nil, bundle: nil)
         var sideVC2 = SideViewController(nibName: nil, bundle: nil)
         
-        var menuVC = YYSideMenuController(nibName: nil, bundle: nil)
+        menuVC = YYSideMenuController(nibName: nil, bundle: nil)
         menuVC.rootViewController = rootVC
+        rootVC.menuVC = menuVC
         menuVC.leftViewController = sideVC1
         menuVC.rightViewController = sideVC2
         

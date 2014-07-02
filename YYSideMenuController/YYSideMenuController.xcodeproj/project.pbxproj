@@ -11,6 +11,8 @@
 		8F1B10A21963D04200E722CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B10A11963D04200E722CE /* Images.xcassets */; };
 		8F1B10AE1963D04200E722CE /* YYSideMenuControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B10AD1963D04200E722CE /* YYSideMenuControllerTests.swift */; };
 		8F1B10B91963D09300E722CE /* YYSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B10B81963D09300E722CE /* YYSideMenuController.swift */; };
+		8F1B10BB1963FBF800E722CE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B10BA1963FBF800E722CE /* RootViewController.swift */; };
+		8F1B10BD1963FC0500E722CE /* SideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B10BC1963FC0500E722CE /* SideViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		8F1B10AC1963D04200E722CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F1B10AD1963D04200E722CE /* YYSideMenuControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYSideMenuControllerTests.swift; sourceTree = "<group>"; };
 		8F1B10B81963D09300E722CE /* YYSideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYSideMenuController.swift; sourceTree = "<group>"; };
+		8F1B10BA1963FBF800E722CE /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		8F1B10BC1963FC0500E722CE /* SideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				8F1B109F1963D04200E722CE /* AppDelegate.swift */,
 				8F1B10A11963D04200E722CE /* Images.xcassets */,
 				8F1B109D1963D04200E722CE /* Supporting Files */,
+				8F1B10BA1963FBF800E722CE /* RootViewController.swift */,
+				8F1B10BC1963FC0500E722CE /* SideViewController.swift */,
 			);
 			path = YYSideMenuController;
 			sourceTree = "<group>";
@@ -213,6 +219,8 @@
 			files = (
 				8F1B10A01963D04200E722CE /* AppDelegate.swift in Sources */,
 				8F1B10B91963D09300E722CE /* YYSideMenuController.swift in Sources */,
+				8F1B10BB1963FBF800E722CE /* RootViewController.swift in Sources */,
+				8F1B10BD1963FC0500E722CE /* SideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

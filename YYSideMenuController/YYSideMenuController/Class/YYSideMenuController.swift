@@ -125,9 +125,11 @@ class YYSideMenuController: UIViewController,UIGestureRecognizerDelegate {
     
     override func viewWillAppear(animated:Bool){
         super.viewWillAppear(animated)
-        assert(!self.rootViewController , "you must set rootViewController!!")
+        //assert(!self.rootViewController , "you must set rootViewController!!")
         if self.currentView != self.rootViewController.view {
-            self.currentView.removeFromSuperview()
+            if self.currentView{
+                self.currentView.removeFromSuperview()
+            }
             self.currentView = self.rootViewController.view
             self.baseView.addSubview(self.currentView)
             self.currentView.frame = self.baseView.bounds

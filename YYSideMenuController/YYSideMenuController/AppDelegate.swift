@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  YYSideMenuController
-//
-//  Created by 向文品 on 14-7-2.
-//  Copyright (c) 2014年 向文品. All rights reserved.
-//
+
 
 import UIKit
 
@@ -19,6 +13,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         self.window!.backgroundColor = UIColor.whiteColor()
         self.window!.makeKeyAndVisible()
+        
+        var rootVC = RootViewController(nibName: nil, bundle: nil)
+        var sideVC1 = SideViewController(nibName: nil, bundle: nil)
+        var sideVC2 = SideViewController(nibName: nil, bundle: nil)
+        
+        var menuVC = YYSideMenuController(nibName: nil, bundle: nil)
+        menuVC.rootViewController = rootVC
+        menuVC.leftViewController = sideVC1
+        menuVC.rightViewController = sideVC2
+        
+        self.window!.rootViewController = menuVC
+        
         return true
     }
 

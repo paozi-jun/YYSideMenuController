@@ -1,15 +1,39 @@
-//
-//  YYSideMenuController.swift
-//  YYSideMenuController
-//
-//  Created by 向文品 on 14-7-2.
-//  Copyright (c) 2014年 向文品. All rights reserved.
-//
+
 
 import UIKit
 
 class YYSideMenuController: UIViewController {
 
+    var needSwipeShowMenu:Bool!
+    var leftViewController:UIViewController!
+    var rightViewController:UIViewController!
+    var rootViewController:UIViewController!
+    
+    var leftViewShowWidth:Float!
+    var rightViewShowWidth:Float!
+    
+    var animationDuration:NSTimeInterval!
+    var showBoundsShadow:Bool!
+    
+    var rootViewMoveBlock:(rootView:UIView,orginFrame:CGRect,xoffset:Float)->() = {(rootView:UIView,orginFrame:CGRect,xoffset:Float)->() in}
+    
+    
+    func setRootViewMoveBlock(rootViewMoveBlock:(rootView:UIView,orginFrame:CGRect,xoffset:Float)->()){
+        
+    }
+    
+    func showLeftViewController(animatied:Bool){
+        
+    }
+    
+    func showRightViewController(animatied:Bool){
+        
+    }
+    
+    func showRootViewController(animatied:Bool){
+        
+    }
+    
     init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         // Custom initialization

@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         rootVC.menuVC = menuVC
         menuVC.leftViewController = sideVC1
         menuVC.rightViewController = sideVC2
-        
+
         self.window!.rootViewController = menuVC
         
         return true

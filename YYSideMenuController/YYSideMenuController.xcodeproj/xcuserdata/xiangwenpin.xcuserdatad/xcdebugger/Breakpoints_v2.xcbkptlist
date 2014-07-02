@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YYSideMenuController/Class/YYSideMenuController.swift"
-            timestampString = "425983876.076755"
+            timestampString = "425986132.221715"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "302"
-            endingLineNumber = "302"
+            startingLineNumber = "295"
+            endingLineNumber = "295"
             landmarkName = "pan(_:)"
             landmarkType = "5">
             <Locations>
@@ -56,11 +56,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YYSideMenuController/Class/YYSideMenuController.swift"
-            timestampString = "425983952.193595"
+            timestampString = "425986132.221715"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "203"
-            endingLineNumber = "203"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
             landmarkName = "showRightViewController(_:)"
             landmarkType = "5">
          </BreakpointContent>

@@ -11,7 +11,7 @@ class YYSideMenuController: UIViewController,UIGestureRecognizerDelegate {
     var needSwipeShowMenu:Bool!{
     set{
         self._needSwipeShowMenu = newValue
-        if newValue {
+        if newValue == true {
             self.baseView.addGestureRecognizer(self.panGestureRecognizer)
         }else{
             self.baseView.removeGestureRecognizer(self.panGestureRecognizer)
@@ -174,13 +174,6 @@ class YYSideMenuController: UIViewController,UIGestureRecognizerDelegate {
         }
     }
     
-    //var rootViewMoveBlock:(rootView:UIView,orginFrame:CGRect,xoffset:Float)->() = {(rootView:UIView,orginFrame:CGRect,xoffset:Float)->() in }
-    
-    
-    func setRootViewMoveBlock(rootViewMoveBlock:(rootView:UIView,orginFrame:CGRect,xoffset:Float)->()){
-        
-    }
-    
     func showLeftViewController(animated:Bool){
         if !self.leftViewController {
             return
@@ -325,15 +318,6 @@ class YYSideMenuController: UIViewController,UIGestureRecognizerDelegate {
         if self.showBoundsShadow {
             self.currentView.layer.shadowPath = UIBezierPath(rect:self.currentView.bounds).CGPath
         }
-//        if self.rootViewMoveBlock {//如果有自定义动画，使用自定义的效果
-//            self.rootViewMoveBlock(_currentView,_baseView.bounds,xoffset);
-//            return;
-//        }
-        
-//        var h2w:Float = 0;
-//        if h2w==0 {
-//            h2w = self.baseView.frame.size.height/self.baseView.frame.size.width
-//        }
         var scale = abs(600 - abs(xoffset)) / 600
         scale = max(0.8, scale)
         self.currentView.transform = CGAffineTransformMakeScale(scale, scale)

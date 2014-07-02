@@ -182,7 +182,7 @@ class YYSideMenuController: UIViewController,UIGestureRecognizerDelegate {
     }
     
     func showLeftViewController(animated:Bool){
-        if self.leftViewController {
+        if !self.leftViewController {
             return
         }
         self.willShowLeftViewController()
@@ -200,7 +200,7 @@ class YYSideMenuController: UIViewController,UIGestureRecognizerDelegate {
     }
     
     func showRightViewController(animated:Bool){
-        if self.rightViewController {
+        if !self.rightViewController {
             return
         }
         self.willShowRightViewController()
@@ -209,7 +209,7 @@ class YYSideMenuController: UIViewController,UIGestureRecognizerDelegate {
             animatedTime = abs(self.rightViewShowWidth + self.currentView.frame.origin.x) / self.rightViewShowWidth * Float(self.animationDuration)
         }
         UIView.animateWithDuration(NSTimeInterval(animatedTime), delay: 0.0, options:UIViewAnimationOptions.CurveEaseInOut, animations: {
-            self.layoutCurrentViewWithOffset(self.rightViewShowWidth)
+            self.layoutCurrentViewWithOffset(-self.rightViewShowWidth)
             self.currentView.addSubview(self.coverButton)
             self.showShadow(self.showBoundsShadow)
             }, completion: {(_)->Void in

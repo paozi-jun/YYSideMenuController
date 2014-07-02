@@ -2,4 +2,84 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YYSideMenuController/Class/YYSideMenuController.swift"
+            timestampString = "425983876.076755"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "302"
+            endingLineNumber = "302"
+            landmarkName = "pan(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YYSideMenuController.YYSideMenuController.pan (YYSideMenuController.YYSideMenuController)(ObjectiveC.UIPanGestureRecognizer) -&gt; ()"
+                  moduleName = "YYSideMenuController"
+                  urlString = "file:///Users/xiangwenpin/Documents/%E5%B7%A5%E4%BD%9C/swift/YYSideMenuController/YYSideMenuController/YYSideMenuController/Class/YYSideMenuController.swift"
+                  timestampString = "425983876.080777"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "302"
+                  endingLineNumber = "302"
+                  offsetFromSymbolStart = "7057">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YYSideMenuController.YYSideMenuController.pan (YYSideMenuController.YYSideMenuController)(ObjectiveC.UIPanGestureRecognizer) -&gt; ()"
+                  moduleName = "YYSideMenuController"
+                  urlString = "file:///Users/xiangwenpin/Documents/%E5%B7%A5%E4%BD%9C/swift/YYSideMenuController/YYSideMenuController/YYSideMenuController/Class/YYSideMenuController.swift"
+                  timestampString = "425983876.08098"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "302"
+                  endingLineNumber = "302"
+                  offsetFromSymbolStart = "7500">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YYSideMenuController/Class/YYSideMenuController.swift"
+            timestampString = "425983952.193595"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "showRightViewController(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YYSideMenuController/Class/YYSideMenuController.swift"
+            timestampString = "425983958.141357"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "showLeftViewController(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

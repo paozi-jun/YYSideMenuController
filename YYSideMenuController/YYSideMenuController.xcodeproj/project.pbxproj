@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F1B10A01963D04200E722CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B109F1963D04200E722CE /* AppDelegate.swift */; };
+		8F1B10A21963D04200E722CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B10A11963D04200E722CE /* Images.xcassets */; };
+		8F1B10AE1963D04200E722CE /* YYSideMenuControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B10AD1963D04200E722CE /* YYSideMenuControllerTests.swift */; };
+		8F1B10B91963D09300E722CE /* YYSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B10B81963D09300E722CE /* YYSideMenuController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F1B10A81963D04200E722CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F1B10921963D04200E722CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F1B10991963D04200E722CE;
+			remoteInfo = YYSideMenuController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F1B109A1963D04200E722CE /* YYSideMenuController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYSideMenuController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1B109E1963D04200E722CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1B109F1963D04200E722CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F1B10A11963D04200E722CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F1B10A71963D04200E722CE /* YYSideMenuControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYSideMenuControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1B10AC1963D04200E722CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1B10AD1963D04200E722CE /* YYSideMenuControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYSideMenuControllerTests.swift; sourceTree = "<group>"; };
+		8F1B10B81963D09300E722CE /* YYSideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYSideMenuController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F1B10971963D04200E722CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1B10A41963D04200E722CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F1B10911963D04200E722CE = {
+			isa = PBXGroup;
+			children = (
+				8F1B109C1963D04200E722CE /* YYSideMenuController */,
+				8F1B10AA1963D04200E722CE /* YYSideMenuControllerTests */,
+				8F1B109B1963D04200E722CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F1B109B1963D04200E722CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F1B109A1963D04200E722CE /* YYSideMenuController.app */,
+				8F1B10A71963D04200E722CE /* YYSideMenuControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F1B109C1963D04200E722CE /* YYSideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				8F1B10B71963D07E00E722CE /* Class */,
+				8F1B109F1963D04200E722CE /* AppDelegate.swift */,
+				8F1B10A11963D04200E722CE /* Images.xcassets */,
+				8F1B109D1963D04200E722CE /* Supporting Files */,
+			);
+			path = YYSideMenuController;
+			sourceTree = "<group>";
+		};
+		8F1B109D1963D04200E722CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F1B109E1963D04200E722CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F1B10AA1963D04200E722CE /* YYSideMenuControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F1B10AD1963D04200E722CE /* YYSideMenuControllerTests.swift */,
+				8F1B10AB1963D04200E722CE /* Supporting Files */,
+			);
+			path = YYSideMenuControllerTests;
+			sourceTree = "<group>";
+		};
+		8F1B10AB1963D04200E722CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F1B10AC1963D04200E722CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F1B10B71963D07E00E722CE /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8F1B10B81963D09300E722CE /* YYSideMenuController.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F1B10991963D04200E722CE /* YYSideMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1B10B11963D04200E722CE /* Build configuration list for PBXNativeTarget "YYSideMenuController" */;
+			buildPhases = (
+				8F1B10961963D04200E722CE /* Sources */,
+				8F1B10971963D04200E722CE /* Frameworks */,
+				8F1B10981963D04200E722CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYSideMenuController;
+			productName = YYSideMenuController;
+			productReference = 8F1B109A1963D04200E722CE /* YYSideMenuController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F1B10A61963D04200E722CE /* YYSideMenuControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1B10B41963D04200E722CE /* Build configuration list for PBXNativeTarget "YYSideMenuControllerTests" */;
+			buildPhases = (
+				8F1B10A31963D04200E722CE /* Sources */,
+				8F1B10A41963D04200E722CE /* Frameworks */,
+				8F1B10A51963D04200E722CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F1B10A91963D04200E722CE /* PBXTargetDependency */,
+			);
+			name = YYSideMenuControllerTests;
+			productName = YYSideMenuControllerTests;
+			productReference = 8F1B10A71963D04200E722CE /* YYSideMenuControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F1B10921963D04200E722CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "向文品";
+				TargetAttributes = {
+					8F1B10991963D04200E722CE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8F1B10A61963D04200E722CE = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8F1B10991963D04200E722CE;
+					};
+				};
+			};
+			buildConfigurationList = 8F1B10951963D04200E722CE /* Build configuration list for PBXProject "YYSideMenuController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F1B10911963D04200E722CE;
+			productRefGroup = 8F1B109B1963D04200E722CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F1B10991963D04200E722CE /* YYSideMenuController */,
+				8F1B10A61963D04200E722CE /* YYSideMenuControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F1B10981963D04200E722CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1B10A21963D04200E722CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1B10A51963D04200E722CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F1B10961963D04200E722CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1B10A01963D04200E722CE /* AppDelegate.swift in Sources */,
+				8F1B10B91963D09300E722CE /* YYSideMenuController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1B10A31963D04200E722CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1B10AE1963D04200E722CE /* YYSideMenuControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F1B10A91963D04200E722CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F1B10991963D04200E722CE /* YYSideMenuController */;
+			targetProxy = 8F1B10A81963D04200E722CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F1B10AF1963D04200E722CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F1B10B01963D04200E722CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F1B10B21963D04200E722CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = YYSideMenuController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F1B10B31963D04200E722CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = YYSideMenuController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F1B10B51963D04200E722CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YYSideMenuController.app/YYSideMenuController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YYSideMenuControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		8F1B10B61963D04200E722CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YYSideMenuController.app/YYSideMenuController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YYSideMenuControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F1B10951963D04200E722CE /* Build configuration list for PBXProject "YYSideMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1B10AF1963D04200E722CE /* Debug */,
+				8F1B10B01963D04200E722CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1B10B11963D04200E722CE /* Build configuration list for PBXNativeTarget "YYSideMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1B10B21963D04200E722CE /* Debug */,
+				8F1B10B31963D04200E722CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1B10B41963D04200E722CE /* Build configuration list for PBXNativeTarget "YYSideMenuControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1B10B51963D04200E722CE /* Debug */,
+				8F1B10B61963D04200E722CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F1B10921963D04200E722CE /* Project object */;
+}

@@ -125,7 +125,6 @@ class YYSideMenuController: UIViewController,UIGestureRecognizerDelegate {
     
     override func viewWillAppear(animated:Bool){
         super.viewWillAppear(animated)
-        //assert(!self.rootViewController , "you must set rootViewController!!")
         if self.currentView != self.rootViewController.view {
             if self.currentView{
                 self.currentView.removeFromSuperview()
@@ -341,16 +340,5 @@ class YYSideMenuController: UIViewController,UIGestureRecognizerDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // #pragma mark - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue?, sender: AnyObject?) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

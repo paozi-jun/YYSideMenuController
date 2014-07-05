@@ -10,6 +10,7 @@ class SideViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.yellowColor()
         // Do any additional setup after loading the view.
     }
 

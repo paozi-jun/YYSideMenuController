@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var sideVC2 = SideViewController(nibName: nil, bundle: nil)
         
         menuVC = YYSideMenuController(nibName: nil, bundle: nil)
-        menuVC.rootViewController = rootVC
+        menuVC.rootViewController = UINavigationController(rootViewController: rootVC)
         rootVC.menuVC = menuVC
         menuVC.leftViewController = sideVC1
         menuVC.rightViewController = sideVC2

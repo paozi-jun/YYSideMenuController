@@ -25,6 +25,12 @@ class RootViewController: UIViewController {
         rightBt.setTitleColor(UIColor.greenColor(), forState: UIControlState.Normal)
         rightBt.addTarget(self, action: "showRight", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(rightBt)
+        
+        var nextBt = UIButton(frame:CGRectMake(0, 300, 320, 50))
+        nextBt.setTitle("nextViewController", forState: UIControlState.Normal)
+        nextBt.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        nextBt.addTarget(self, action: "nextBtClick", forControlEvents: UIControlEvents.TouchUpInside)
+        self.view.addSubview(nextBt)
     }
 
     func showRight(){
@@ -37,6 +43,11 @@ class RootViewController: UIViewController {
         if self.menuVC{
             self.menuVC!.showLeftViewController(true)
         }
+    }
+    
+    func nextBtClick(){
+        var vc = SideViewController(nibName: nil, bundle: nil)
+        self.navigationController.pushViewController(vc, animated: true)
     }
     
     override func didReceiveMemoryWarning() {
